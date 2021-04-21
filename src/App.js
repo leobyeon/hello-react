@@ -15,7 +15,7 @@ function App() {
   );
 } 
 
-let clientID = '*INSERT-CLIENT-ID*'
+let clientID = '**INSERT-CLIENT-ID**'
 export default withLDProvider({
   clientSideID: `${clientID}`,
   user: {
